@@ -1,0 +1,8 @@
+[mariadb]
+# Options file for Blog article "Mariadb Point-in-time Recovery"
+max_binlog_size = 524288
+log_bin = /var/log/mysql/mariadb-bin
+log_bin_index = /var/log/mysql/mariadb-bin.index
+binlog_format = MIXED
+
+# skip-log-bin
