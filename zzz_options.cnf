@@ -3,6 +3,6 @@
 max_binlog_size = 524288
 log_bin = /var/log/mysql/mariadb-bin
 log_bin_index = /var/log/mysql/mariadb-bin.index
-binlog_format = MIXED
+binlog_format = ROW
 
 # skip-log-bin
